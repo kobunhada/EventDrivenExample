@@ -5,6 +5,7 @@ import java.beans.PropertyChangeListener
 
 class Person {
     var name: String = ""
+        // use backing fields
         set(value) {
             field = value
             println("Person.name=%s".format(field))

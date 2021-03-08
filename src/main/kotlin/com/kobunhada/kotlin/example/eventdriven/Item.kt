@@ -5,6 +5,7 @@ import java.beans.PropertyChangeListener
 
 class Item {
     var name: String = ""
+    // use backing fields
     var owner: String = ""
         set(value) {
             field = value
